@@ -40,7 +40,7 @@ Keterangan:
 - PHP 8.1+
 - [Composer](https://getcomposer.org)
 
-## Proses Instalasi
+## langkah-langkah instalasi dan penggunaan proyek Laravel:
 
 1. Kloning repositori:
     ```bash
