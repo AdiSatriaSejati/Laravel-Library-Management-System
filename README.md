@@ -35,10 +35,12 @@ Keterangan:
 
 > **Administrator juga memiliki akses terhadap seluruh aksi yang dapat dilakukan oleh Pustakawan.**
 
-## Kebutuhan Sistem
+## Persyaratan
 
-- PHP 8.1+
-- [Composer](https://getcomposer.org)
+- Laragon 6.0.0
+- PHP >= 8.1.10
+- MySQL >= 5.7.39
+- Composer >= 2.6.3
 
 ## langkah-langkah instalasi dan penggunaan proyek Laravel:
 
