@@ -82,6 +82,10 @@ Keterangan:
     ```bash
     php artisan serve
     ```
+9. Buka Browser Link:
+   ```bash
+    http://127.0.0.1:8000
+   ```
 ## Screenshot
 ![AdiSatriaSejati](https://ik.imagekit.io/AdiSatriaSejati/1.png?updatedAt=1700995212061)
 ## Alur Bisnis
