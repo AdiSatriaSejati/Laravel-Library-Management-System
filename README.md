@@ -87,7 +87,7 @@ Keterangan:
     http://127.0.0.1:8000
    ```
 10. Akun:
-    -ADMINISTRATOR
+    - ADMINISTRATOR
     ```bash
     12221455@bsi.ac.id
     ```
