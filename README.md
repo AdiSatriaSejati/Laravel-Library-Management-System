@@ -34,7 +34,7 @@ Keterangan:
 ✨ = _Nice to have_
 
 ## Bahasa yang didukung:
-<p align="center" style="display: inline;">
+<p align="left" style="display: inline;">
     <a href="#"><img src="https://flagicons.lipis.dev/flags/4x3/us.svg" title="English" width="24"></a>
     <a href="#"><img src="https://flagicons.lipis.dev/flags/4x3/id.svg" title="Indonesia" width="24"></a>
 </p>
