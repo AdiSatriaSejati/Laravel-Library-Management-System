@@ -114,8 +114,14 @@ Keterangan:
       ```bash
       password
       ```
-## Screenshot
+## Screenshots
 ![AdiSatriaSejati](https://ik.imagekit.io/AdiSatriaSejati/1.png?updatedAt=1700995212061)
+![AdiSatriaSejati](https://ik.imagekit.io/AdiSatriaSejati/2.png?updatedAt=1700997386303)
+![AdiSatriaSejati](https://ik.imagekit.io/AdiSatriaSejati/3.png?updatedAt=1700997568697)
+![AdiSatriaSejati](https://ik.imagekit.io/AdiSatriaSejati/4.png?updatedAt=1700997657588)
+![AdiSatriaSejati](https://ik.imagekit.io/AdiSatriaSejati/5.png?updatedAt=1700997721061)
+![AdiSatriaSejati](https://ik.imagekit.io/AdiSatriaSejati/6.png?updatedAt=1700997791163)
+
 ## Alur Bisnis
 
 ### Login
