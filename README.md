@@ -87,9 +87,26 @@ Keterangan:
     http://127.0.0.1:8000
    ```
 10. Akun:
-    - ADMINISTRATOR
+    - Administrator
       ```bash
       12221455@bsi.ac.id
+      ```
+      ```bash
+      password
+      ```
+    - Pustakawan
+      ```bash
+      12220510@bsi.ac.id
+      ```
+    - Anggota
+      ```bash
+      12221446@bsi.ac.id
+      ```
+      ```bash
+      12220035@bsi.ac.id
+      ```
+      ```bash
+      12220098@bsi.ac.id
       ```
       ```bash
       password
