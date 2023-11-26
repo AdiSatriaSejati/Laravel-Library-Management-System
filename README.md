@@ -122,7 +122,7 @@ Keterangan:
 ![Heri Setiawan](https://ik.imagekit.io/AdiSatriaSejati/5.png?updatedAt=1700997721061)
 ![Ryan Ramadhan](https://ik.imagekit.io/AdiSatriaSejati/6.png?updatedAt=1700997791163)
 
-##Design Database
+## Design Database
 ![Design Database](https://ik.imagekit.io/AdiSatriaSejati/Design%20Database.png?updatedAt=1701032583539)
 
 ## Alur Bisnis
