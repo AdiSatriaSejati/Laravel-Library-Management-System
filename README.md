@@ -116,11 +116,14 @@ Keterangan:
       ```
 ## Screenshots
 ![AdiSatriaSejati](https://ik.imagekit.io/AdiSatriaSejati/1.png?updatedAt=1700995212061)
-![AdiSatriaSejati](https://ik.imagekit.io/AdiSatriaSejati/2.png?updatedAt=1700997386303)
-![AdiSatriaSejati](https://ik.imagekit.io/AdiSatriaSejati/3.png?updatedAt=1700997568697)
-![AdiSatriaSejati](https://ik.imagekit.io/AdiSatriaSejati/4.png?updatedAt=1700997657588)
-![AdiSatriaSejati](https://ik.imagekit.io/AdiSatriaSejati/5.png?updatedAt=1700997721061)
-![AdiSatriaSejati](https://ik.imagekit.io/AdiSatriaSejati/6.png?updatedAt=1700997791163)
+![Adi Satria Sejati](https://ik.imagekit.io/AdiSatriaSejati/2.png?updatedAt=1700997386303)
+![Annisa Rahma Pyrarry](https://ik.imagekit.io/AdiSatriaSejati/3.png?updatedAt=1700997568697)
+![Dani Saputra](https://ik.imagekit.io/AdiSatriaSejati/4.png?updatedAt=1700997657588)
+![Heri Setiawan](https://ik.imagekit.io/AdiSatriaSejati/5.png?updatedAt=1700997721061)
+![Ryan Ramadhan](https://ik.imagekit.io/AdiSatriaSejati/6.png?updatedAt=1700997791163)
+
+##Design Database
+![Design Database](https://ik.imagekit.io/AdiSatriaSejati/Design%20Database.png?updatedAt=1701032583539)
 
 ## Alur Bisnis
 
@@ -148,13 +151,6 @@ Keterangan:
 -   Selanjutnya, memindai barcode ISBN pada buku.
 -   Secara _default_, batas waktu peminjaman adalah tiga (3) hari. Biaya keterlambatan adalah Rp 500 per hari.
 -   Nominal denda diatur di file .env dengan _key_ **DENDA_RUPIAH**.
-
-## Kontribusi
-
-Terima kasih atas keinginan Anda untuk berkontribusi pada Sistem Informasi Manajemen Perpustakaan Sederhana ini.
-
-Silakan ajukan _Pull Request_ untuk penambahan, pengurangan, atau perbaikan fitur, serta ajukan _Issue_ jika menemukan kekurangan dalam sistem yang ada, terutama yang terkait dengan demo yang disediakan.
-
 
 ## License
 
