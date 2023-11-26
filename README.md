@@ -33,6 +33,12 @@ Keterangan:
 👍 = Wajib ada  
 ✨ = _Nice to have_
 
+## Bahasa yang didukung:
+<p align="center" style="display: inline;">
+    <a href="#"><img src="https://flagicons.lipis.dev/flags/4x3/us.svg" title="English" width="24"></a>
+    <a href="#"><img src="https://flagicons.lipis.dev/flags/4x3/id.svg" title="Indonesia" width="24"></a>
+</p>
+
 > **Administrator juga memiliki akses terhadap seluruh aksi yang dapat dilakukan oleh Pustakawan.**
 
 ## Persyaratan
