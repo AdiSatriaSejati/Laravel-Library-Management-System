@@ -98,6 +98,9 @@ Keterangan:
       ```bash
       12220510@bsi.ac.id
       ```
+      ```bash
+      password
+      ```
     - Anggota
       ```bash
       12221446@bsi.ac.id
