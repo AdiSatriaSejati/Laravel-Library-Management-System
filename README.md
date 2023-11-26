@@ -86,6 +86,14 @@ Keterangan:
    ```bash
     http://127.0.0.1:8000
    ```
+10. Akun:
+    -ADMINISTRATOR
+    ```bash
+    12221455@bsi.ac.id
+    ```
+    ```bash
+    password
+    ```
 ## Screenshot
 ![AdiSatriaSejati](https://ik.imagekit.io/AdiSatriaSejati/1.png?updatedAt=1700995212061)
 ## Alur Bisnis
