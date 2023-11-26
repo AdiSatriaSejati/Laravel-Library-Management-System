@@ -102,25 +102,6 @@ Keterangan:
 -   Secara _default_, batas waktu peminjaman adalah tiga (3) hari. Biaya keterlambatan adalah Rp 500 per hari.
 -   Nominal denda diatur di file .env dengan _key_ **DENDA_RUPIAH**.
 
-## Cara menjalankan aplikasi
-1. Install [Composer](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-macos) secara global (tanpa docker)
-2. Install [Docker](https://docs.docker.com/get-docker/)
-3. Install `make`, biasanya sudah terpasang secara default oleh OS yang dipakai. Tetapi untuk [Windows, bisa menggunakan Chocolatey](https://stackoverflow.com/a/32127632)
-4. Salin repositori dan masuk ke repositori yang telah disalin
-    ```sh
-    git clone https://github.com/nurfachmi/perpustakaan.git
-    cd perpustakaan
-    ```
-5. Salin file `.env.example` dan beri nama `.env`
-    ```sh
-    cp .env.example .env
-    ```
-6. Jalankan command `make` untuk install *dependencies*, dan migrasi db dengan *dummy* data
-    ```sh
-    make
-    ```
-    Setelah berhasil, aplikasi sudah bisa diakses pada `http://localhost`. Dan bisa masuk dengan email `admin@nurfachmi.com` dan password `password`
-
 ## Kontribusi
 
 Terima kasih atas keinginan Anda untuk berkontribusi pada Sistem Informasi Manajemen Perpustakaan Sederhana ini.
