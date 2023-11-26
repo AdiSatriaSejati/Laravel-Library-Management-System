@@ -83,7 +83,7 @@ Keterangan:
     php artisan serve
     ```
 ## Screenshot
-[![AdiSatriaSejati](https://ik.imagekit.io/AdiSatriaSejati/1.png?updatedAt=1700995212061)]
+![AdiSatriaSejati](https://ik.imagekit.io/AdiSatriaSejati/1.png?updatedAt=1700995212061)
 ## Alur Bisnis
 
 ### Login
