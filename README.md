@@ -1,0 +1,133 @@
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+
+## Tentang Perpustakaan Sederhana
+
+Sistem Informasi Manajemen Perpustakaan Sederhana ini adalah sebuah sistem sederhana yang mengelola perpustakaan, mulai dari manajemen pustakawan, anggota, buku, hingga peminjaman. Dibuat dengan pendekatan yang sederhana untuk memastikan kemudahan penggunaan.
+
+
+## Fitur Perpustakaan Sederhana
+
+| Status | Role          | Modul                     | Keterangan |
+| :----: | ------------- | ------------------------- | :--------: |
+|   ✅   | _Semua_       | Login                     |     👍     |
+|   ❌   | _Semua_       | Login dengan Gmail        |     ✨     |
+|   ✅   | Administrator | Manajemen Pustakawan      |    👍📬    |
+|   ✅   | Pustakawan    | Manajemen Anggota         |    👍📬    |
+|   ✅   | Pustakawan    | Manajemen Buku            |     👍     |
+|   ❌   | Pustakawan    | Manajemen Kategori Buku   |     👍     |
+|   ✅   | Pustakawan    | Manajemen Peminjaman Buku |  👍║▌💰📬  |
+|   ❌   | Pustakawan    | Cetak Kartu Angota        |   ✨💰📬   |
+|   ❌   | Anggota       | Histori Peminjaman Buku   |     👍     |
+|   ✅   | _Semua_       | Ubah Profil               |     👍     |
+|   ✅   | _Semua_       | Ubah Password             |     👍     |
+
+Keterangan:
+
+✅ = Sudah ada dan mungkin butuh modifikasi lebih baik  
+🔧 = Sudah ada dan butuh perbaikan segera
+❌ = Belum ada  
+⏲️ = Dalam pengerjaan  
+📬 = Butuh SMTP  
+║▌ = Butuh barcode scanner (atau logikanya)  
+💰 = Butuh perhitungan uang  
+👍 = Wajib ada  
+✨ = _Nice to have_
+
+> **Administrator juga memiliki akses terhadap seluruh aksi yang dapat dilakukan oleh Pustakawan.**
+
+## Kebutuhan Sistem
+
+- PHP 8.1+
+- [Composer](https://getcomposer.org)
+
+## Proses Instalasi
+
+1. Kloning repositori:
+    ```bash
+    git clone https://github.com/AdiSatriaSejati/Laravel-Library-Management-System.git
+    ```
+2. Masuk ke direktori proyek:
+    ```bash
+    cd Laravel-Library-Management-System
+    ```
+3. Instal dependencies menggunakan Composer:
+    ```bash
+    composer install
+    ```
+4. Salin file `.env.example` menjadi `.env`:
+    ```bash
+    cp .env.example .env
+    ```
+5. Buat kunci aplikasi:
+    ```bash
+    php artisan key:generate
+    ```
+6. Menjalankan Migrasi Database dan Seeding:
+    ```bash
+    php artisan migrate:fresh --seed
+    ```
+7. Membuat Link Storage:
+    ```bash
+    php artisan storage:link
+    ```
+8. Menjalankan Server:
+    ```bash
+    php artisan serve
+    ```
+
+## Alur Bisnis
+
+### Login
+
+-   Seluruh pengguna dapat login setelah melakukan verifikasi email.
+
+### Manajemen Pustakawan
+
+-   Admin menambahkan pengguna pustakawan dari panel (minimal nama dan email).
+-   Pustakawan menerima email verifikasi berisi link untuk mengatur password.
+-   Pustakawan tidak dapat login sebelum melakukan verifikasi di atas.
+-   Pustakawan tidak dapat melakukan transaksi peminjaman buku sebelum melengkapi seluruh data diri.
+
+### Manajemen Anggota
+
+-   Pustakawan menambahkan pengguna anggota dari panel (minimal nama dan email).
+-   Anggota menerima email verifikasi berisi link untuk mengatur password.
+-   Anggota tidak dapat login sebelum melakukan verifikasi di atas.
+-   Anggota tidak dapat meminjam buku sebelum melengkapi seluruh data diri.
+
+### Peminjaman Buku
+
+-   Pustakawan memindai kartu anggota atau memasukkan nomor anggota terlebih dahulu.
+-   Selanjutnya, memindai barcode ISBN pada buku.
+-   Secara _default_, batas waktu peminjaman adalah tiga (3) hari. Biaya keterlambatan adalah Rp 500 per hari.
+-   Nominal denda diatur di file .env dengan _key_ **DENDA_RUPIAH**.
+
+## Cara menjalankan aplikasi
+1. Install [Composer](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-macos) secara global (tanpa docker)
+2. Install [Docker](https://docs.docker.com/get-docker/)
+3. Install `make`, biasanya sudah terpasang secara default oleh OS yang dipakai. Tetapi untuk [Windows, bisa menggunakan Chocolatey](https://stackoverflow.com/a/32127632)
+4. Salin repositori dan masuk ke repositori yang telah disalin
+    ```sh
+    git clone https://github.com/nurfachmi/perpustakaan.git
+    cd perpustakaan
+    ```
+5. Salin file `.env.example` dan beri nama `.env`
+    ```sh
+    cp .env.example .env
+    ```
+6. Jalankan command `make` untuk install *dependencies*, dan migrasi db dengan *dummy* data
+    ```sh
+    make
+    ```
+    Setelah berhasil, aplikasi sudah bisa diakses pada `http://localhost`. Dan bisa masuk dengan email `admin@nurfachmi.com` dan password `password`
+
+## Kontribusi
+
+Terima kasih atas keinginan Anda untuk berkontribusi pada Sistem Informasi Manajemen Perpustakaan Sederhana ini.
+
+Silakan ajukan _Pull Request_ untuk penambahan, pengurangan, atau perbaikan fitur, serta ajukan _Issue_ jika menemukan kekurangan dalam sistem yang ada, terutama yang terkait dengan demo yang disediakan.
+
+
+## License
+
+Sistem Informasi Manajemen Perpustakaan Sederhana ini dilisensikan dengan [MIT license](https://opensource.org/licenses/MIT).
